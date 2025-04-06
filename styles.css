@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#colorBox {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    transition: background-color 0.5s ease;
+}
+
+input[type="color"] {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
